@@ -1,0 +1,70 @@
+# MongoDB driver
+pymongo==4.5.0
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# Web framework
+flask==3.0.0
+
+# For working with .env files and environment variables
+python-decouple==3.8
+
+# Date and time handling
+pytz==2023.3
+
+# JSON handling
+simplejson==3.19.1
+
+# Logging
+loguru==0.7.2
+
+# For making HTTP requests
+requests==2.31.0
+
+# Database migrations
+Flask-Migrate==4.0.5
+
+# For background tasks
+celery==5.3.4
+
+# For handling CORS
+flask-cors==4.0.0
+
+# For data validation and settings management
+pydantic==2.3.0
+
+# For testing
+pytest==7.4.2
+
+# Langchain and related dependencies
+langchain==0.0.300
+chromadb==0.4.13
+
+# PDF processing
+PyPDF2==3.0.1
+
+# Hugging Face Transformers
+transformers==4.33.2
+sentence-transformers==2.2.2
+
+# For working with large language models
+torch==2.0.1
+torchvision==0.15.2
+
+# Additional useful libraries
+numpy==1.25.2
+pandas==2.1.1
+scikit-learn==1.3.1
+
+# YAML parsing (often used with Langchain)
+PyYAML==6.0.1
+
+# Streamlit for easy UI creation (if needed)
+streamlit==1.27.0
+
+# For parallel processing
+joblib==1.3.2
+
+# For handling environment variables in a structured way
+environs==9.5.0
