@@ -52,3 +52,4 @@ pip-delete-this-directory.txt
 
 # SQL
 *.
+.DS_Store
