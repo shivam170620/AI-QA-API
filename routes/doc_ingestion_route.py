@@ -72,7 +72,7 @@ def ingest_documents():
         abort(400, "No files provided to ingest")
     
     if is_pdf_stored_locally:
-        pdf_folder_path = "/Users/shivamchoudhary/Documents/gpt-voice-assistant/gpt-voice-assistant/pdfs"
+        pdf_folder_path = "/Users/shivamhome/Documents/gpt-voice-assistant/gpt-voice-assistant/pdfs"
         
         # Load PDFs
         pdf_loader = PDFLoader(pdf_folder_path)
@@ -83,6 +83,8 @@ def ingest_documents():
         
         pdf_loader = PDFLoader(folder_path="")
         pdf_documents = pdf_loader.load_pdfs_from_request(uploaded_files)
+
+    logger.debug(PERSIST_DIRECTORY)
 
     documents = pdf_documents
     logger.debug("Pdf data is extracted into txt format")

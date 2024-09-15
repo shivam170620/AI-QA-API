@@ -49,8 +49,8 @@ transformers==4.33.2
 sentence-transformers==2.2.2
 
 # For working with large language models
-torch==2.0.1
-torchvision==0.15.2
+torch==2.2.2
+torchvision==0.18.1
 
 # Additional useful libraries
 numpy==1.25.2
